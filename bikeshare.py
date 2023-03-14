@@ -179,15 +179,15 @@ def user_stats(df):
 
 def ask_more_data(df):
     more_data = input("Would you like to view 5 rows of data? Enter yes or no? ").lower()
-    start_loc = 0
+    index = 0
     pd.set_option('display.max_columns',200)
     while True:
         if more_data == 'no':
             break
         elif more_data == 'yes':
-            print(df.iloc[start_loc:start_loc+5])
+            print(df.iloc[index:index+5])
             more_data = input("Would you like to view 5 more rows of data? Enter yes or no? ").lower()
-            start_loc += 5
+            index += 5
         else:
             more_data = input("\nYour input is invalid. Please enter only 'yes' or 'no'\n").lower()
         

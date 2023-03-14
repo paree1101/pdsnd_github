@@ -20,9 +20,9 @@ Using the language; Python I was supposed to create a code that could guide thro
 
 ### Files used
 Here are the files containing all of the data for the 3 cities:
-1) [Chicago](chicago.csv)
-2) [New York City](new_york_city.csv)
-3) [Washington](washington.csv)
+1) [Chicago](documents/pdsnd_github/.gitignore/chicago.csv)
+2) [New York City](documents/pdsnd_github/.gitignore/new_york_city.csv)
+3) [Washington](documents/pdsnd_github/.gitignore/washington.csv)
 
 ### Credits
 - [Essential Python Tips](https://www.geeksforgeeks.org/10-essential-python-tips-tricks-programmers/)

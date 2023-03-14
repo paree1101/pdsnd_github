@@ -35,9 +35,9 @@ def get_filters():
             print("Opps!! incorrect input...")
     
     # ask the user to input day of week (sat , sun, mon ... fri, all)
-    days = ["saturday", "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "all"]
+    days = ["sat", "sun", "mon", "tue", "wed", "thu", "fri", "all"]
     while True:
-        day = input("please, pick day of week(saturday, sunday, monday, tuesday, wednesday, thursday, friday)to filter or(all) for not filtering:\n").lower()
+        day = input("please, pick day of week(sat, sun, mon, tue, wed, thu, fri)to filter or(all) for not filtering:\n").lower()
         if day in days:
             break
         else:

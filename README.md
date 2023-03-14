@@ -8,21 +8,21 @@ The project I worked on was < Explore US Bikeshare Data :statue_of_liberty: :bik
 
 ### Description of my project
 The project required me to explore data related to bike share systems for three major cities in the US:
-    - Chicago
-    - New York City
-    - Washington 
+- Chicago
+- New York City
+- Washington 
 
 Using the language; Python I was supposed to create a code that could guide through questions like:
-    - Would you like to see data for Chicago, New York, or Washington?
-    - Would you like to filter the data by month, day, or not at all?
-    - If month is chosen then which month: January, February, March, April, May, or June
-    - If day is chosen then which day: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?
+- Would you like to see data for Chicago, New York, or Washington?
+- Would you like to filter the data by month, day, or not at all?
+- If month is chosen then which month: January, February, March, April, May, or June
+- If day is chosen then which day: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?
 
 ### Files used
 Here are the files containing all of the data for the 3 cities:
-    1) [Chicago](.gitignore/chicago.csv)
-    2) [New York City](.gitignore/new_york_city.csv)
-    3) [Washington](.gitignore/washington.csv)
+1) [Chicago](chicago.csv)
+2) [New York City](new_york_city.csv)
+3) [Washington](washington.csv)
 
 ### Credits
 - [Essential Python Tips](https://www.geeksforgeeks.org/10-essential-python-tips-tricks-programmers/)

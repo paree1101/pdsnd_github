@@ -1,6 +1,5 @@
 import time
 import pandas as pd
-import numpy as np
 CITY_DATA = { 'chic': 'chicago.csv',
               'nyc': 'new_york_city.csv',
               'wgt': 'washington.csv' }
@@ -36,9 +35,9 @@ def get_filters():
             print("Opps!! incorrect input...")
     
     # ask the user to input day of week (sat , sun, mon ... fri, all)
-    days = ["saturday", "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "all"]
+    days = ["sat", "sun", "mon", "tue", "wed", "thu", "fri", "all"]
     while True:
-        day = input("please, pick day of week(saturday, sunday, monday, tuesday, wednesday, thursday, friday)to filter or(all) for not filtering:\n").lower()
+        day = input("please, pick day of week(sat, sun, mon, tue, wed, thu, fri)to filter or(all) for not filtering:\n").lower()
         if day in days:
             break
         else:
@@ -180,15 +179,15 @@ def user_stats(df):
 
 def ask_more_data(df):
     more_data = input("Would you like to view 5 rows of data? Enter yes or no? ").lower()
-    start_loc = 0
+    index = 0
     pd.set_option('display.max_columns',200)
     while True:
         if more_data == 'no':
             break
         elif more_data == 'yes':
-            print(df.iloc[start_loc:start_loc+5])
+            print(df.iloc[index:index+5])
             more_data = input("Would you like to view 5 more rows of data? Enter yes or no? ").lower()
-            start_loc += 5
+            index += 5
         else:
             more_data = input("\nYour input is invalid. Please enter only 'yes' or 'no'\n").lower()
         
